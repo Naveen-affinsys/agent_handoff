@@ -1,0 +1,24 @@
+{
+  "id": 326,
+  "api_name": "buddyconsole message",
+  "api_data": {
+    "endpoint": "http://console-backend:8081/internal/message-social/agent/",
+    "data_type": "json",
+    "method": "POST",
+    "request": "{    \n    \"channel_id\": \"{channel_id}\",\n    \"channel_name\": \"{channel_code}\",\n    \"message\": \"{message}\"\n}",
+    "response": "\"{console_response}\"",
+    "fixed_response": "",
+    "conf": {},
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "cookies": {
+      "project": "ig9ccrl3a0djayyw4muydq"
+    },
+    "auth_type": "no_auth",
+    "auth_data": {},
+    "ssl_verification": false,
+    "bypass_api": false
+  },
+  "project_id": 5
+}

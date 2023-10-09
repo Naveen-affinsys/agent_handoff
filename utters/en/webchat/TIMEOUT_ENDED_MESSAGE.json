@@ -1,0 +1,55 @@
+{
+  "id":1320,
+  "project":1,
+  "utter_name":"TIMEOUT_ENDED_MESSAGE",
+  "utter_data":{
+    "data":[
+      {
+        "id":"card-0",
+        "list":[
+
+        ],
+        "title":"",
+        "buttons":[
+
+        ],
+        "file_url":"",
+        "subtitle":"Your chat ended due to inactivity.",
+        "frame_url":"",
+        "image_url":"",
+        "list_slot":"",
+        "video_url":"",
+        "buttons_slots":"",
+        "post_list_text":""
+      }
+    ],
+    "quick_replies":[
+      {
+        "type":"payload",
+        "title":"Main menu",
+        "payload":"hii"
+      },
+      {
+        "type":"payload",
+        "title":"LIve Agent",
+        "payload":"agent"
+      }
+    ],
+    "template_data":{
+      "template":false,
+      "template_name":"",
+      "template_slots":[
+
+      ],
+      "call_to_action_url":"",
+      "call_to_action_number":""
+    },
+    "quick_replies_slot":""
+  },
+  "channel_code":"webchat",
+  "lang":"en",
+  "separate":true,
+  "slots":[
+
+  ]
+}

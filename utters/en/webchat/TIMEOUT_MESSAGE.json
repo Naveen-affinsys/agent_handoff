@@ -1,0 +1,46 @@
+{
+  "id":1209,
+  "project":1,
+  "utter_name":"TIMEOUT_MESSAGE",
+  "utter_data":{
+    "data":[
+      {
+        "id":"card-0",
+        "list":[
+
+        ],
+        "title":"",
+        "buttons":[
+
+        ],
+        "file_url":"",
+        "subtitle":"You have been inactive for sometime, do you want to continue ?",
+        "frame_url":"",
+        "image_url":"",
+        "list_slot":"",
+        "video_url":"",
+        "buttons_slots":"",
+        "post_list_text":""
+      }
+    ],
+    "quick_replies":[
+      {
+        "type":"payload",
+        "title":"Go back to BOT",
+        "payload":"cancel"
+      },
+      {
+        "type":"payload",
+        "title":"Continue with Agent",
+        "payload":"continue with Agent"
+      }
+    ],
+    "quick_replies_slot":""
+  },
+  "channel_code":"webchat",
+  "lang":"en",
+  "separate":true,
+  "slots":[
+
+  ]
+}

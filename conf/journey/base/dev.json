@@ -1,0 +1,34 @@
+{
+    "name":{
+      "value":null,
+      "is_secret":false
+    },
+    "MAX_RETRIES_LIMIT":{
+      "value":"3",
+      "is_secret":false
+    },
+    "BYPASS_API":{
+      "value":"false",
+      "is_secret":false
+    },
+    "API_FAILURE_RESPONSE":{
+      "value":"Oops! Technical Issue. Please try after sometime.",
+      "is_secret":false
+    },
+    "EVENTLOGGER_BASE_URL":{
+      "value":"http://event-logger:8543",
+      "is_secret":false
+    },
+    "CONSOLE_HANDOFF_INITIATE_URL":{
+      "value":"http://handoff:8003/handoff/handoff-social/",
+      "is_secret":false
+    },
+    "Buddyconsole_Cancel_URL":{
+      "value":"http://handoff:8003/handoff/handoff-social/confirm/",
+      "is_secret":false
+    },
+    "Buddyconsole_Message_URL":{
+      "value":"http://handoff:8003/handoff/message-social/agent/",
+      "is_secret":false
+    }
+  }

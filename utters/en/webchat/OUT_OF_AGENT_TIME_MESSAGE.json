@@ -1,0 +1,50 @@
+{
+  "id":4595,
+  "project":1,
+  "utter_name":"OUT_OF_AGENT_TIME_MESSAGE",
+  "utter_data":{
+    "data":[
+      {
+        "id":"card-0",
+        "list":[
+
+        ],
+        "title":"",
+        "buttons":[
+
+        ],
+        "file_url":"",
+        "subtitle":"Sorry No Agents available at this time",
+        "frame_url":"",
+        "image_url":"",
+        "list_slot":"",
+        "video_url":"",
+        "buttons_slots":"",
+        "post_list_text":""
+      }
+    ],
+    "quick_replies":[
+      {
+        "type":"payload",
+        "title":"Main menu",
+        "payload":"Main menu"
+      }
+    ],
+    "template_data":{
+      "template":false,
+      "template_name":"",
+      "template_slots":[
+
+      ],
+      "call_to_action_url":"",
+      "call_to_action_number":""
+    },
+    "quick_replies_slot":""
+  },
+  "channel_code":"webchat",
+  "lang":"en",
+  "separate":true,
+  "slots":[
+
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": 350,
+  "api_name": "buddyconsole cancel",
+  "api_data": {
+    "endpoint": "{Buddyconsole_Cancel_URL}",
+    "data_type": "json",
+    "method": "POST",
+    "request": "{\n    \"channel_id\": \"{channel_id}\",\n    \"channel_name\": \"{channel_code}\",\n    \"message\": \"{message}\"\n}",
+    "response": "\"{console_response}\"",
+    "fixed_response": "",
+    "conf": {},
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "cookies": {
+      "project": "{tenant}"
+    },
+    "query_params": {},
+    "auth_type": "",
+    "auth_data": {},
+    "ssl_verification": false,
+    "bypass_api": false
+  },
+  "project_id": 5
+}

@@ -1,0 +1,28 @@
+{
+  "id": 26,
+  "api_name": "event history",
+  "api_data": {
+    "conf": {},
+    "method": "GET",
+    "cookies": {
+      "project": "{tenant}"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "request": "{}",
+    "endpoint": "{EVENTLOGGER_BASE_URL}/events/fetch/history/",
+    "response": "{}",
+    "auth_data": {},
+    "auth_type": "no_auth",
+    "data_type": "json",
+    "bypass_api": false,
+    "query_params": {
+      "tenant": "{tenant}",
+      "session_id": "{slot_session_id}"
+    },
+    "fixed_response": "{}",
+    "ssl_verification": false
+  },
+  "project_id": 1
+}

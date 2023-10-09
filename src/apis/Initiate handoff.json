@@ -1,0 +1,25 @@
+{
+  "id": 340,
+  "api_name": "Initiate handoff",
+  "api_data": {
+    "endpoint": "{CONSOLE_HANDOFF_INITIATE_URL}",
+    "data_type": "json",
+    "method": "POST",
+    "request": "\"{slot_handoff_connection_request}\"",
+    "response": "\"{slot_handoff_connection_response}\"",
+    "fixed_response": "",
+    "conf": {},
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "cookies": {
+      "project": "{tenant}"
+    },
+    "query_params": {},
+    "auth_type": "no_auth",
+    "auth_data": {},
+    "ssl_verification": false,
+    "bypass_api": false
+  },
+  "project_id": 5
+}

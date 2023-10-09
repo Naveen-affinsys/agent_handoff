@@ -1,0 +1,25 @@
+{
+  "id": 9,
+  "api_name": "buddyconsole message api",
+  "api_data": {
+    "conf": {},
+    "method": "POST",
+    "cookies": {
+      "project": "{tenant}"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "request": "{\n\"channel_id\": \"{channel_id}\",\n\"channel_name\": \"{channel_code}\",\n\"message\": \"{slot_message}\"\n}",
+    "endpoint": "{Buddyconsole_Message_URL}",
+    "response": "\"{console_response}\"",
+    "auth_data": {},
+    "auth_type": "no_auth",
+    "data_type": "json",
+    "bypass_api": false,
+    "query_params": {},
+    "fixed_response": "{}",
+    "ssl_verification": false
+  },
+  "project_id": 1
+}
