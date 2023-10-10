@@ -1,0 +1,37 @@
+{
+  "id":1250,
+  "project":1,
+  "utter_name":"utter_uncaught_exception",
+  "utter_data":{
+    "data":[
+      {
+        "id":"card-0",
+        "list":[
+
+        ],
+        "title":"",
+        "buttons":[
+
+        ],
+        "file_url":"",
+        "subtitle":"Unhandled Exception. Please try again later.",
+        "frame_url":"",
+        "image_url":"",
+        "list_slot":"",
+        "video_url":"",
+        "buttons_slots":"",
+        "post_list_text":""
+      }
+    ],
+    "quick_replies":[
+
+    ],
+    "quick_replies_slot":""
+  },
+  "channel_code":"webchat",
+  "lang":"en",
+  "separate":true,
+  "slots":[
+
+  ]
+}
